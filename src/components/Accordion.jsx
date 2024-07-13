@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Accordion = (props) => {
+const Accordion = ({ title, description }) => {
   // let isOpen = false;
 
   const cevap = useState(false);
